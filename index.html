@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Horoscope</title>
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="css/main.css"></link>
+</head>
+<body>
+	<div class="main">
+		<h1>Horoscope</h1>
+		<h2>Enter Your Birth Date!</h2>
+		<div class="result" id="result">
+			<h2 id="sign"></h2>
+			<img id="icon" src="">
+			<br>
+			<ul id="traits">
+				<li id="strengths"></li>
+				<li id="weaknesses"></li>
+				<li id="likes"></li>
+				<li id="dislikes"></li>
+			</ul>
+		</div>
+		<div class="form">
+			<form>
+				<input placeholder="Day" id="day">
+				<input placeholder="Month" id="month">
+				<br>
+				<br>
+				<button type="button" onclick="getInfo()">Submit</button>
+			</form>
+		</div>
+
+	</div>
+	<script src="js/main.js"></script>
+</body>
+</html>
